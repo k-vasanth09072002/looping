@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forin</title>
+</head>
+<body>
+    <script>
+        //array//
+        let colors=["red","blue","green","bink"];
+
+        for( let key  in colors){
+            // console.log(key);
+            console.log(colors[key]);
+        }
+
+
+        //object//
+
+        let person={
+            name:"vasanth",
+            age:21,
+            loction:"tenkasi"
+        }
+        for( let key in person){
+           // console.log("key:" + key);
+            console.log(key +":",person[key] );
+        }
+    </script>
+
+    
+</body>
+</html>
