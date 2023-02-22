@@ -182,31 +182,89 @@
 
 
 
-       let a=parseInt(prompt("enter number "));
+//        let a=parseInt(prompt("enter number "));
    
 
 
-   for(i=1;i<=a;i++){
+//    for(i=1;i<=a;i++){
 
-   if( i%2!==0){
+//    if( i%2!==0){
 
-    document.write("odd number"+i);
-    document.write("<br>")
-   }
-   else if(i%2==0){
-    document.write( "even number"+i)
-    document.write("<br>")
-   }
-   else{
-    document.write("not")
-   }
+//     document.write("odd number"+i);
+//     document.write("<br>")
+//    }
+//    else if(i%2==0){
+//     document.write( "even number"+i)
+//     document.write("<br>")
+//    }
+//    else{
+//     document.write("not")
+//    }
 
 
-   }
+//    }
 
     
 
+     let n=parseInt(prompt("enter number"))
+       
 
+       var result=0;
+
+
+
+
+       
+
+       while(n>0){
+         
+          fir=n%10;
+
+          result=result*10+fir;
+          n=Math.floor(n/10);
+
+
+
+          if(fir==1){
+            document.write("one")
+          }
+          else if(fir==2){
+            document.write("two")
+          }
+          else if(fir==3){
+            document.write("three")
+          }
+          else if(fir==4){
+            document.write("four")
+          }
+           else if(fir==5){
+            document.write("five")
+          }
+           else if(fir==6){
+            document.write("six");
+          }
+          else if(fir==7){
+            document.write("seven");
+          }
+          else if(fir==8){
+            document.write("eight")
+          }
+          else if(fir==9){
+            document.write("nayn")
+          }
+          else if(fir==0){
+            document.write("zero")
+          }
+
+          
+
+       }
+
+        
+      
+
+         console.log(result);
+     
 
 
 
