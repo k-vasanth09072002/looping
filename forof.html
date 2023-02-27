@@ -485,34 +485,24 @@
        let a=parseInt(prompt("enter number "));
    
      let n=0;
-     let even=[];
-     let odd=[];
+     let even=0;
+     let odd=0;
     
 
      while(a>0){
         fin=(a%10);
         
         if(fin%2==0){
-           even.push(fin);
+           even+=fin;
         }
 
         else{
-        odd.push(fin);
+            odd+=fin;
      }
-       
-     a=Math.floor(a/10);
-     }
+     a=Math.floor(a/10)
+    }
      console.log(even);
      console.log(odd);
-    
-
-
-
-     
-    // console.log(n);
-
-
-//    for(i=1;i<=a;i++){
 
 //    if( i%2!==0){
 
